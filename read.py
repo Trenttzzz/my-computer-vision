@@ -1,5 +1,6 @@
 import cv2 as cv
 
+# FOR IMAGE
 # img = cv.imread('image/turbo-lag.jpg')
 
 # show image
@@ -8,12 +9,11 @@ import cv2 as cv
 # wait 
 # cv.waitKey(0)
 
-# read video
-# using while loop to show all the frame
 
+# FOR VIDEO
 vid = cv.VideoCapture('video/bird.mp4')
 
-# while loop
+# using while loop to show all the image frame by frame
 while True:
     isTrue, frame = vid.read()
 
